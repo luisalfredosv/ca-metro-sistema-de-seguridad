@@ -1,6 +1,6 @@
 <?php
 //include("../conect.php");
-$con = mysql_connect("localhost","root","kilo*sargento56") 
+$con = mysql_connect("localhost","user","password") 
  	   or die ("No me pude conectar");
 
 mysql_select_db ("si_visitantes") 
