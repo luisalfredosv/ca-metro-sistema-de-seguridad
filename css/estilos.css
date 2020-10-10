@@ -1,0 +1,57 @@
+
+#tabla3 {
+width:85%;
+float:left;
+}
+
+.borde {
+border:red 1px dotted;
+}
+
+.one {
+position:absolute;
+left:50%;
+top:32%;
+/* z-index:1; */
+}
+
+.two {
+position:absolute;
+left:50%;
+top:32%;
+/* z-index:2; */
+}
+
+.vis{
+  display: none;
+}
+
+#cam {
+position:relative;
+width:150px;
+height:122px;
+}
+
+.pie {
+position:absolute;
+margin-top:570px;
+margin-left:36%;
+}
+
+.fail {
+border:1px solid red;
+}
+
+#tabla1 {
+width:50%;
+float:left;
+}
+
+#tabla2 {
+width:35%;
+float:left;
+}
+
+#tabla1, #tabla2, #tabla3{
+align-content: center;
+}
